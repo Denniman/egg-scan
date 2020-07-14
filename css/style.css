@@ -13,9 +13,21 @@ a.navbar-brand {
 }
 
 .header-content {
-    background-color: #D0792B;
+    background-color:  #D0792B;
     height: 80vh;
 }
+
+/* .header-content:before {
+    content: '';
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:  #D0792B;
+    border-radius: 0 0 70% 20%/ 0 0 100% 100%;
+    transform: scaleX(1.5);
+} */
 
 .content {
     margin-top: 5em;
@@ -67,6 +79,29 @@ img.phone1 {
     right: 1;
 }
 
+.how-it-works {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.get-familiar {
+    font-size: .9rem;
+}
+.row-2 {
+    margin-top: 10em;
+}
+
+.ul-link {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ul-link li {
+    list-style: none;
+    width: 30%;
+}
+
 /* desktop screen size */
 @media only screen and (min-width: 768px) {
     h1.coming-soon {
@@ -85,7 +120,17 @@ img.phone1 {
    [type="button"] {
     font-size: 1rem;
     height: 40px;
+} 
+
+.row-2 {
+    margin-top: 10em;
 }
+
+.ul-link li {
+    list-style: none;
+    width: 20%;
+}
+
     
 
 }
