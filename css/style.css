@@ -14,7 +14,7 @@ a.navbar-brand {
 
 .header-content {
     background-color:  #D0792B;
-    height: 80vh;
+    height: 70vh;
 }
 
 /* .header-content:before {
@@ -53,6 +53,10 @@ img.phone1 {
 
 img.phone1, img.phone-2{
     width: 50%;
+}
+
+.row-2 {
+    margin-top: 17em !important;
 }
 
 
