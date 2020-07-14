@@ -19,9 +19,21 @@ a.navbar-brand {
     margin-top: 5em;
 }
 
+#phone-scan {
+    margin-top: 1em;
+}
+
+h1.coming-soon {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p.coming-soon {
+    text-align: center;
+}
+
 img.phone1 {
-    width: 40%;
-    margin-left: 10em;
+    width: 50%;
 }
 
 [type="email"], 
@@ -29,13 +41,15 @@ img.phone1 {
     border: 0;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    height: 40px;
+    font-size: .7rem;
+    height: 35px;
     margin-top: 2em;
     font-family: inherit;
 }
 
 [type="email"] {
     width: 70%;
+    padding-left: 1em;
 }
 
 [type="email"]:focus {
@@ -48,4 +62,27 @@ img.phone1 {
     position: absolute;
     top: 1;
     right: 1;
+}
+
+/* desktop screen size */
+@media only screen and (min-width: 768px) {
+    h1.coming-soon {
+        font-size: 2rem;
+        text-align: left;
+    }
+    p.coming-soon {
+        text-align: left;
+    }
+    img.phone1 {
+        width: 40%;
+        margin-left: 10em;
+    }
+
+    [type="email"], 
+[type="button"] {
+    font-size: 1rem;
+    height: 40px;
+}
+    
+
 }
