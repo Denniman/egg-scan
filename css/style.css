@@ -48,8 +48,13 @@ p.coming-soon {
 }
 
 img.phone1 {
+    box-shadow: 5px 10px 8px #333;
+}
+
+img.phone1, img.phone-2{
     width: 50%;
 }
+
 
 [type="email"], 
 [type="button"] {
@@ -106,6 +111,10 @@ span.works {
     color: #D0792B;
 }
 
+.top-notch {
+    color: #837C7C;
+}
+
 /* desktop screen size */
 @media only screen and (min-width: 768px) {
     h1.coming-soon {
@@ -121,6 +130,11 @@ span.works {
         margin-left: 10em;
     }
 
+    img.phone-2 {
+        width: 60%;
+        margin-left: 5em;
+    }
+
     [type="email"], 
    [type="button"] {
     font-size: 1rem;
@@ -129,6 +143,10 @@ span.works {
 
 .row-2 {
     margin-top: 10em;
+}
+
+.row-3, .row-4 {
+    margin-top: 5em;
 }
 
 .ul-link li {
@@ -144,6 +162,10 @@ span.works {
 .get-familiar {
     font-size: 1.2rem;
     margin-left: -2em;
+}
+
+.last-row {
+    margin-top: 13em;
 }
 
     

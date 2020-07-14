@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>EggScan</title>
 </head>
 <body>
@@ -30,7 +31,8 @@
                     </div>
                     
                     <div class="col-md-6 content" id="phone-scan">
-                     <img src="/assets/Android - 10 (1).svg" class="phone1" alt="">
+                     <img src="/assets/Android - 10.svg" class="phone1" alt="">
+                     <!-- /assets/Android - 10.svg -->
                    
                 </div>
                 </div>
@@ -40,7 +42,7 @@
         <main class="container-fluid">
             <section class="container">
                 <article class="row row-2">
-                    <div class="col-12">
+                    <div class="col-12" data-aos="flip-left">
                         <h3 class="text-center how-it-works">How it <span class="works">works</span></h3>
                         <p class="text-center get-familiar">Get familiar with our app</p>
                         <ul class="ul-link">
@@ -59,9 +61,61 @@
                                 <h5>Reliable</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur</p>
                             </li>
-                        </ul>
-
-                        
+                        </ul>                        
+                    </div>
+                </article>
+                <article class="row row-3">
+                    <div class="col-md-12 col-12">
+                        <h4 class="text-center">Features</h4>
+                    </div>
+                </article>
+                <article class="row row-4">
+                    <div class="col-12 col-md-6" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <img src="/assets/Android - 10 (1).svg" class="phone-2" alt="">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-center top-notch">Top notch AI Scanner</h3>
+                        <h5 class="text-center">Welcome to a world of endless possibilities</h5>
+                        <p class="text-center">
+                            Forget about the large egg testers forever. EggScan turns your mobile
+                            device into a powerful all-purpose tool. Powered automically analyzis your eggs
+                            and recommends the best possible choice of eggs to buy.
+                        </p>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusamus illo autem rem ad libero, eaque iure reprehenderit vero, dicta minus sint eum excepturi nobis. 
+                            Distinctio rem adipisci laudantium nemo.
+                        </p>
+                    </div>
+                </article>
+                <article class="row row-4">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-center top-notch">Fast and reliable results</h3>
+                        <h5 class="text-center">Get results in real time</h5>
+                        <p class="text-center">
+                           The fast AI processor quickly brings up simplified results to let
+                           you know if the eggs are healthy and fresh enough to be consumed.
+                        </p>
+                        <p class="text-center">Ameart ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusamus illo autem rem ad libero, eaque iure reprehenderit vero, dicta minus sint eum excepturi nobis. 
+                            Distinctio rem adipisci laudantium nemo.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <img src="/assets/Android - 10 (2).svg" class="phone-2" alt="">
+                    </div>
+                </article>
+                <article class="row last-row">
+                    <div class="col-12 col-md-6" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <img src="/assets/Android - 10 (3).svg" class="phone-2" alt="">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-center top-notch">Fresh Eggs Finder</h3>
+                        <h5 class="text-center">Locate fresh eggs dealers</h5>
+                        <p class="text-center">
+                            If you can't seem to find healhty eggs, EggScan uses results shared by other users
+                            on the app to help you locate fresh eggs dealers close to you.
+                        </p>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat accusamus illo autem rem ad libero, eaque iure reprehenderit vero, dicta minus sint eum excepturi nobis. 
+                            Distinctio rem adipisci laudantium nemo.
+                        </p>
                     </div>
                 </article>
             </section>    
@@ -70,6 +124,10 @@
     
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
 <script src="/js/app.js"></script>
 </body>
