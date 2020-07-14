@@ -13,21 +13,10 @@ a.navbar-brand {
 }
 
 .header-content {
-    background-color:  #D0792B;
+    background-image: url(/assets/Vector.svg);
     height: 70vh;
 }
 
-/* .header-content:before {
-    content: '';
-    position: absolute;
-    width: 85%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color:  #D0792B;
-    border-radius: 0 0 70% 20%/ 0 0 100% 100%;
-    transform: scaleX(1.5);
-} */
 
 .content {
     margin-top: 5em;
