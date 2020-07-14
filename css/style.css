@@ -138,11 +138,12 @@ span.works {
 
 .how-it-works {
     font-size: 1.7rem;
-    font-weight: 500;
+    margin-left: -2em;
 }
 
 .get-familiar {
     font-size: 1.2rem;
+    margin-left: -2em;
 }
 
     
