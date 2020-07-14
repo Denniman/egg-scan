@@ -24,22 +24,28 @@ img.phone1 {
     margin-left: 10em;
 }
 
-[type="email"] {
-    font-family: inherit;
+[type="email"], 
+[type="button"] {
     border: 0;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     height: 40px;
     margin-top: 2em;
+    font-family: inherit;
+}
+
+[type="email"] {
     width: 70%;
 }
+
+[type="email"]:focus {
+    outline: 0;
+}
+
 [type="button"] {
     background-color: #333;
-    border: 0;
-    border-radius: 10px;
     color: #fff;
     position: absolute;
-    height: 40px;
     top: 1;
     right: 1;
 }
