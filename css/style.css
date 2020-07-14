@@ -1,0 +1,45 @@
+body {
+    height: 250vh;
+}
+
+.navbar-color {
+    background-color: #D0792B;
+}
+
+a.navbar-brand {
+    color: #fff;
+}
+
+.header-content {
+    background-color: #D0792B;
+    height: 80vh;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+img.phone1 {
+    width: 40%;
+    margin-left: 10em;
+}
+
+[type="email"] {
+    font-family: inherit;
+    border: 0;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 2em;
+    width: 70%;
+}
+[type="button"] {
+    background-color: #333;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    height: 40px;
+    top: 1;
+    right: 1;
+}
