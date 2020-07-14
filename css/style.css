@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 body {
     height: 250vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-color {
@@ -24,6 +26,7 @@ a.navbar-brand {
 }
 
 h1.coming-soon {
+    font-family: inherit;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -79,7 +82,7 @@ img.phone1 {
     }
 
     [type="email"], 
-[type="button"] {
+   [type="button"] {
     font-size: 1rem;
     height: 40px;
 }
