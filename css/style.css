@@ -102,6 +102,10 @@ img.phone1 {
     width: 30%;
 }
 
+span.works {
+    color: #D0792B;
+}
+
 /* desktop screen size */
 @media only screen and (min-width: 768px) {
     h1.coming-soon {
@@ -129,6 +133,15 @@ img.phone1 {
 .ul-link li {
     list-style: none;
     width: 20%;
+}
+
+.how-it-works {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.get-familiar {
+    font-size: 1.2rem;
 }
 
     
