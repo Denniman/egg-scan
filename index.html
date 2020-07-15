@@ -27,7 +27,9 @@
                           Add your email below to stay up-to-date with our product lauch deals.
                         </p>
 
-                        <input type="email" placeholder="Enter Email"> <button type="button">Subscribe</button>
+                        <form action="connect.php" method="post">
+                            <input type="email" placeholder="Enter Email" name="email" id="emailInput"> <button type="button">Subscribe</button>
+                        </form>
                     </div>
                     
                     <div class="col-md-6 content" id="phone-scan">
@@ -42,7 +44,7 @@
         <main class="container-fluid">
             <section class="container">
                 <article class="row row-2">
-                    <div class="col-12" data-aos="flip-left">
+                    <div class="col-12 colz" data-aos="flip-left">
                         <h3 class="text-center how-it-works">How it <span class="works">works</span></h3>
                         <p class="text-center get-familiar">Get familiar with our app</p>
                         <ul class="ul-link">
